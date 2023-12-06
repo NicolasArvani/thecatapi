@@ -72,7 +72,7 @@ class AppState extends State<App> {
               ConstrainedBox(
                 constraints: BoxConstraints(
                   maxWidth: MediaQuery.of(context).size.width - 50,
-                  maxHeight: MediaQuery.of(context).size.height * 0.6,
+                  maxHeight: MediaQuery.of(context).size.height * 0.5,
                 ),
                 child: fotoGatinho,
               ),
