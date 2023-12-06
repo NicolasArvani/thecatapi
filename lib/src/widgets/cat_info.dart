@@ -46,6 +46,13 @@ class CatInfo extends StatelessWidget {
                 const Icon(
                   Icons.favorite,
                   color: Colors.red,
+                  shadows: [
+                    Shadow(
+                        blurRadius: 3.0,
+                        color: Colors.black,
+                        offset: Offset(1, 1),
+                      ),
+                    ],
                 ),
             ],
           ),
@@ -57,6 +64,13 @@ class CatInfo extends StatelessWidget {
                 const Icon(
                   Icons.bolt,
                   color: Colors.yellow,
+                  shadows: [
+                    Shadow(
+                        blurRadius: 3.0,
+                        color: Colors.black,
+                        offset: Offset(1, 1),
+                      ),
+                    ],
                 ),
             ],
           ),
@@ -68,6 +82,13 @@ class CatInfo extends StatelessWidget {
                 const Icon(
                   Icons.lightbulb,
                   color: Colors.blue,
+                  shadows: [
+                    Shadow(
+                        blurRadius: 3.0,
+                        color: Colors.black,
+                        offset: Offset(1, 1),
+                      ),
+                    ],
                 ),
             ],
           ),
@@ -79,6 +100,13 @@ class CatInfo extends StatelessWidget {
                 const Icon(
                   Icons.pets,
                   color: Colors.green,
+                  shadows: [
+                    Shadow(
+                        blurRadius: 3.0,
+                        color: Colors.black,
+                        offset: Offset(1, 1),
+                      ),
+                    ],
                 ),
             ],
           ),
