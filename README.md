@@ -1,16 +1,22 @@
 # thecatapi
 
-A new Flutter project.
+## Aplicativo para ver fotos e informações de gatinhos!!!
 
-## Getting Started
+### Usando a API do site https://thecatapi.com/
 
-This project is a starting point for a Flutter application.
+### Para rodar o projeto
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Para gerar o apk
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter build apk --split-per-abi
+```
+
+---
+
+##### Projeto Programação de Dispositivos Móveis - IFSP Salto 
