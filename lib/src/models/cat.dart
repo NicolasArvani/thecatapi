@@ -24,42 +24,9 @@ class Cat{
     energyLevel = json[0]['energy_level'] ?? 0;
     intelligenceLevel = json[0]['intelligence'] ?? 0;
     dogFriendlyLevel = json[0]['dog_friendly'] ?? 0;
-
-    print(getInfo());
   }
 
-  getInfo(){
-    return Column(
-      children: [
-        Text('Nome: ' + name),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Nível de afeto: '),
-            for(int i = 0; i < affectionLevel; i++) Icon(Icons.favorite, color: Colors.red,),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Nível de energia: '),
-            for(int i = 0; i < energyLevel; i++) Icon(Icons.bolt, color: Colors.yellow,),
-          ],
-        ),
-        Row(mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Nível de inteligência: '),
-            for(int i = 0; i < intelligenceLevel; i++) Icon(Icons.lightbulb, color: Colors.blue,),
-          ],
-        ),
-        Row(mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Nível de amizade com cães: '),
-            for(int i = 0; i < dogFriendlyLevel; i++) Icon(Icons.pets, color: Colors.green,),
-          ],
-        ),
-      ],);
-  }
+  
 
 
 
